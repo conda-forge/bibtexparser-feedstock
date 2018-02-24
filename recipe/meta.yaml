@@ -18,11 +18,13 @@ build:
 
 requirements:
   build:
-    - pyparsing
+    - future >=0.16
+    - pyparsing >=2.0.3
     - python
     - setuptools
   run:
-    - pyparsing
+    - future >=0.16
+    - pyparsing >=2.0.3
     - python
 
 test:
