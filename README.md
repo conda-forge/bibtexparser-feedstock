@@ -14,14 +14,15 @@ Summary: A module for parsing BibTeX files.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bibtexparser-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bibtexparser-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bibtexparser-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bibtexparser-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bibtexparser-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bibtexparser-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bibtexparser-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bibtexparser-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bibtexparser/badges/version.svg)](https://anaconda.org/conda-forge/bibtexparser)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bibtexparser/badges/downloads.svg)](https://anaconda.org/conda-forge/bibtexparser)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bibtexparser-green.svg)](https://anaconda.org/conda-forge/bibtexparser) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bibtexparser.svg)](https://anaconda.org/conda-forge/bibtexparser) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bibtexparser.svg)](https://anaconda.org/conda-forge/bibtexparser) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bibtexparser.svg)](https://anaconda.org/conda-forge/bibtexparser) |
 
 Installing bibtexparser
 =======================
