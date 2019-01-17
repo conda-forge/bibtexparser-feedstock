@@ -1,6 +1,6 @@
 {% set name = "bibtexparser" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "cc41cdd8332c2bf44b97daf1f135f4f267c3b744c33976655cd270b66f964c0a" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "df8966ea752db6d74657a69b9d684a61aa33457ad6d9d50e41c50ef7f374907f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script:
     - python -m pip install --no-deps --ignore-installed .
 
