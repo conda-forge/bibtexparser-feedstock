@@ -3,7 +3,7 @@ About bibtexparser
 
 Home: https://bibtexparser.readthedocs.org/
 
-Package license: LGPLv3 or BSD
+Package license: LGPL-3.0-only OR BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bibtexparser-feedstock/blob/main/LICENSE.txt)
 
