@@ -15,28 +15,25 @@ build:
   noarch: python
   number: 0
   script:
-    - python -m pip install --no-deps --ignore-installed .
+    - {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - future >=0.16
     - pyparsing >=2.0.3
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - future >=0.16
     - pyparsing >=2.0.3
-    - python
+    - python >=3.6
 
 test:
   imports: bibtexparser
 
 about:
   home: https://bibtexparser.readthedocs.org/
-  license: LGPLv3 or BSD
+  license: LGPL-3.0-only OR BSD-3-Clause
   license_file: COPYING
-  # license_file: COPYING -- file not included in the current distribution
   summary: A module for parsing BibTeX files.
 
 extra:
