@@ -1,11 +1,11 @@
-About bibtexparser
-==================
+About bibtexparser-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bibtexparser-feedstock/blob/main/LICENSE.txt)
 
 Home: https://bibtexparser.readthedocs.org/
 
 Package license: LGPL-3.0-only OR BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bibtexparser-feedstock/blob/main/LICENSE.txt)
 
 Summary: A module for parsing BibTeX files.
 
