@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script:
     - {{ PYTHON }} -m pip install . -vv
 
@@ -21,13 +21,15 @@ requirements:
   host:
     - pip
     - pyparsing >=2.0.3
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
     - pyparsing >=2.0.3
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports: bibtexparser
 
 about:
