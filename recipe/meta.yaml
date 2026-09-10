@@ -1,6 +1,6 @@
 {% set name = "bibtexparser" %}
-{% set version = "1.4.4" %}
-{% set sha256 = "093b6c824f7a71d3a748867c4057b71f77c55b8dbc07efc993b781771520d8fb" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "7f1e1d989282836a0ba39caf88ecc8982dfd924a4f49de58167d7effe99768e8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/b/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/b/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -20,11 +20,11 @@ build:
 requirements:
   host:
     - pip
-    - pyparsing >=2.0.3
+    - pylatexenc >=2.10
     - python {{ python_min }}
     - setuptools
   run:
-    - pyparsing >=2.0.3
+    - pylatexenc >=2.10
     - python >={{ python_min }}
 
 test:
@@ -34,8 +34,8 @@ test:
 
 about:
   home: https://bibtexparser.readthedocs.org/
-  license: LGPL-3.0-only OR BSD-3-Clause
-  license_file: COPYING
+  license: MIT
+  license_file: LICENSE
   summary: A module for parsing BibTeX files.
 
 extra:
