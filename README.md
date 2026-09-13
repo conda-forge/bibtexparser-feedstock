@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bibtexparser-fe
 
 Home: https://bibtexparser.readthedocs.org/
 
-Package license: LGPL-3.0-only OR BSD-3-Clause
+Package license: MIT
 
 Summary: A module for parsing BibTeX files.
 
