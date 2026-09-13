@@ -1,6 +1,6 @@
 {% set name = "bibtexparser" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "7f1e1d989282836a0ba39caf88ecc8982dfd924a4f49de58167d7effe99768e8" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "672a59f4ba431c4e9a6647cc7c42a267b22e257bcd2cfdb661863f3756c9ab14" %}
 
 package:
   name: {{ name|lower }}
